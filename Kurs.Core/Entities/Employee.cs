@@ -8,9 +8,9 @@ public class Employee : IEntity
     public string Name { get; }
     public string SurName { get; }
     public decimal salary { get; }
-    public int DepartmentId { get; internal set; }
+    public int DepartmentId { get; }
 
-    private static int _count;   
+    public static int _count;   
 
     public Employee()
     {

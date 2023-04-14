@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    width: 100;
+}
+td,th {
+    border: 1px solid  lightblue;
+    text-align: left;
+    padding:8px;
+}
+tr:nth{
+    background-color: lightblue;
+}
+th{
+    background-color:lightblue;
+} 
+td{
+    border: dashed 1px lightblue;
+}
